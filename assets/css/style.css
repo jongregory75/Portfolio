@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    font-size: 200%;
+    color:rgb(199, 211, 224);
+      }
+  
+  
+    
+  nav a {
+    color:rgb(199, 211, 224);
+    padding: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+  }
+
+  .headerImgContainer{
+    display: flex;
+    background-image: url('../img/ryan-moreno-w1_4YH5IhDg-unsplash_resize.jpg');
+    height: 150px;
+    justify-content: flex-end;
+    padding-right: 25px;
+    align-items: flex-end;
+    padding-bottom: 25px;
+  }
+
+
+ .headerImgText {
+  align-items:baseline;
+  color: rgb(40, 43, 46);
+  font-size: 1.5rem;
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ /* creates main children into column format */
+main {
+display: flex;
+flex-direction: column;
+
+}
+
+/* About me row container */
+  .aboutSectionContainer {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 30px;
+  }
+ 
+  /* h2 for 1st <hr> element on each row of main container*/
+  h2 {
+    justify-self: flex-end;
+    text-align: right;
+    font-size: 150%;
+    padding: 10px;
+    /* right: 70%; */
+    width: 25%;
+    height: 100%;
+    border-right: black solid 3px;
+    }
+
+/* Presentation of about me content <p> elements */
+    #about-content{
+      padding: 10px;
+      left: 30%;
+      /* width: 70%; */
+      flex-direction: column;
+    }
+p {
+
+  
+}
+/* Portfolio section contatiner  */
+  .portfolioSectionContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 300px;
+    align-items: flex-start;
+    padding: 20px 30px;
+  }
+
+/* Portfolio content container  */
+    #portfolio-content{
+      padding: 20px;
+      left: 30%;
+      display: flex;
+      flex-direction: row;
+      flex: 1 0 400px;
+      align-items: flex-start;
+  }
+  
+/* Portfolio item */
+  .card {
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 65%;
+    border-radius: 5px;
+    padding 15px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px
+  }
+
+  .card:hover {
+  opacity: 100%;
+  width: 350px;
+  }
+
+
+
+
+/*Portfolio item text  */
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+
+/* Contact section container */
+  .contactSectionContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 100px;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+/* Contact content container */
+    .contact-content{
+      flex-direction: row;
+      padding: 10px;
+      left: 30%;
+      justify-content: space-between;
+      font-size: 1.0;
+      color: rgb(40, 43, 46);
+    }  
+
+/* Resume section container */
+  .resumeSectionContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+/* Resume content item */
+    #resume-content{
+      padding: 10px;
+      left: 20%;
+      justify-content: space-around;
+      font-size: 1.0;
+      color: rgb(40, 43, 46);
+
+    }
+
+
+.footerContent {
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+    
+   
+  }
