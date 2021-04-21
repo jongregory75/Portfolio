@@ -42,6 +42,7 @@ Responsive design to make the site viewable across varying display configuration
 Images for the application placeholders were chosen from unspash authors:
 Alora Griffiths
 Kyle Mackie
+Ryan Moreno
 
 ### External Links to Repository / Site:
 Repository: https://github.com/jongregory75/Portfolio
