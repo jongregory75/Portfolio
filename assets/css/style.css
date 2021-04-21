@@ -5,9 +5,6 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
   line-height: 1.5;
   font-size: 1.2rem;
 }
@@ -18,7 +15,6 @@ body {
     align-items: center;
     padding: 20px;
     background-color: black;
-    color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
@@ -34,7 +30,6 @@ body {
     padding: 7px;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   nav a:hover {
@@ -46,13 +41,20 @@ body {
     display: flex;
     background-image: url('../img/ryan-moreno-w1_4YH5IhDg-unsplash_resize.jpg');
     height: 150px;
-    justify-content: flex-end;
+    width: 100%;
+    justify-content: space-between;
     padding-right: 25px;
     align-items: flex-end;
     padding-bottom: 25px;
   }
 
-
+.headerImg {
+  display: flex;
+  justify-content: flex-start;
+  height: 130px;
+  border: 2px solid rgb(199, 211, 224);
+  margin-left:10px;
+}
  .headerImgText {
   align-items:baseline;
   color: rgb(40, 43, 46);
@@ -83,7 +85,7 @@ flex-direction: column;
     text-align: right;
     font-size: 150%;
     padding: 10px;
-    /* right: 70%; */
+    right: 70%;
     width: 25%;
     height: 100%;
     border-right: black solid 3px;
@@ -159,18 +161,23 @@ p {
       flex-direction: row;
       padding: 10px;
       left: 30%;
-      justify-content: space-between;
+      /* justify-content: space-around; */
       font-size: 1.0;
       color: rgb(40, 43, 46);
       font-weight: bold;
       text-decoration: none;
       
     }  
+   .contact-content a{
+    font-weight: bold;
+    text-decoration: none;
+   }
 
     .contact-content:hover{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       border-bottom: 3px solid rgb(40, 43, 46);
       font-weight: 900;
+      text-decoration: none;
 
     }
 
@@ -200,11 +207,7 @@ p {
   }
 
 
-.footerContent {
 
-
-
-}
 
 @media screen and (max-width: 768px) {
     header {
