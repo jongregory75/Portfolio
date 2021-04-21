@@ -88,6 +88,7 @@ flex-direction: column;
     right: 70%;
     width: 25%;
     height: 100%;
+    font-weight: bold;
     border-right: black solid 3px;
     }
 
@@ -118,7 +119,7 @@ flex-direction: column;
       align-items: flex-start;
   }
   
-/* Portfolio item */
+/* Portfolio items--ability to add multiple projects from here */
   .first-card {
     padding: 20px;
     text-align: center;
@@ -183,6 +184,7 @@ flex-direction: column;
    .contact-content a{
     font-weight: bold;
     text-decoration: none;
+    color: rgb(40, 43, 46);
    }
 
     .contact-content:hover{
@@ -202,20 +204,29 @@ flex-direction: column;
   }
 
 /* Resume content item */
-    #resume-content{
+    .resume-content{
       padding: 10px;
       left: 20%;
       justify-content: space-around;
       font-size: 1.0;
       font-weight: bold;
       color: rgb(40, 43, 46);
+    }
+
+    .resume-content a{
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(40, 43, 46);
+
 
     }
     
-  #resume-content a:hover {
-    color: rgb(40, 43, 46);
+  .resume-content a:hover {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-bottom: 3px solid rgb(40, 43, 46);
-    font-weight: bolder;
+    font-weight: 900;
+    text-decoration: none;
+
   }
 
 
@@ -225,6 +236,7 @@ flex-direction: column;
     header {
       flex-direction: column;
     }
+
     .aboutSectionContainer {
       display: flex;
       flex-direction: column;
@@ -262,15 +274,7 @@ flex-direction: column;
         align-items: flex-start;
         padding: 20px;
 
-        #resume-content{
-          padding: 10px;
-          left: 20%;
-          justify-content: flex-end;
-          font-size: 1.0;
-          font-weight: bold;
-          color: rgb(40, 43, 46);
     
-        }
       }
    
   }
