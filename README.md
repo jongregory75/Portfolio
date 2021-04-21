@@ -44,5 +44,5 @@ Alora Griffiths
 Kyle Mackie
 
 ### External Links to Repository / Rendered Site:
-
-* Satisfies all of the above acceptance criteria.
+Repository: https://github.com/jongregory75/Portfolio
+Rendered HTML: 
