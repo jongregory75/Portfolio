@@ -138,9 +138,6 @@ p {
   width: 350px;
   }
 
-
-
-
 /*Portfolio item text  */
   .card header {
     padding: 20px;
@@ -165,7 +162,17 @@ p {
       justify-content: space-between;
       font-size: 1.0;
       color: rgb(40, 43, 46);
+      font-weight: bold;
+      text-decoration: none;
+      
     }  
+
+    .contact-content:hover{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border-bottom: 3px solid rgb(40, 43, 46);
+      font-weight: 900;
+
+    }
 
 /* Resume section container */
   .resumeSectionContainer {
@@ -181,9 +188,16 @@ p {
       left: 20%;
       justify-content: space-around;
       font-size: 1.0;
+      font-weight: bold;
       color: rgb(40, 43, 46);
 
     }
+    
+  #resume-content a:hover {
+    color: rgb(40, 43, 46);
+    border-bottom: 3px solid rgb(40, 43, 46);
+    font-weight: bolder;
+  }
 
 
 .footerContent {
