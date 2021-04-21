@@ -43,6 +43,6 @@ Images for the application placeholders were chosen from unspash authors:
 Alora Griffiths
 Kyle Mackie
 
-### External Links to Repository / Rendered Site:
+### External Links to Repository / Site:
 Repository: https://github.com/jongregory75/Portfolio
-Rendered HTML: 
+Index.html:  https://jongregory75.github.io/Portfolio/
