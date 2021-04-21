@@ -121,7 +121,7 @@ flex-direction: column;
   
 /* Portfolio items--ability to add multiple projects from here */
   .first-card {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -130,10 +130,17 @@ flex-direction: column;
     padding 15px;
     justify-content: space-between;
     margin: 0px 10px 10px 10px;
-    width: 80%;
+    width: 40%;
   }
-  .second-card {
-    padding: 20px;
+  .small-card-align {
+    text-align: center;
+    opacity: 65%;
+    margin: 0px 10px 10px 10px;
+    width: 40%;
+    flex-direction: row;}
+
+  .small-card-present {
+    padding: 10px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -142,6 +149,11 @@ flex-direction: column;
     padding 15px;
     margin: 0px 10px 10px 10px;
     width: 40%;
+    flex-direction: row;
+  }
+
+  .portfolio-content {
+    
   }
 
   .first-card:hover {
