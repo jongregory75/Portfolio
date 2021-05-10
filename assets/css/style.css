@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
-    font-size: 16px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -9,302 +10,253 @@ body {
   font-size: 1.2rem;
 }
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  h1 {
-    font-size: 200%;
-    color:rgb(199, 211, 224);
-      }
-  
-  
-    
-  nav a {
-    color:rgb(199, 211, 224);
-    padding: 7px;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: #fff;
-    border-bottom: 3px solid #fff;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 
-  .headerImgContainer{
-    display: flex;
-    background-image: url('../img/ryan-moreno-w1_4YH5IhDg-unsplash_resize.jpg');
-    height: 150px;
-    width: 100%;
-    justify-content: space-between;
-    padding-right: 25px;
-    align-items: flex-end;
-    padding-bottom: 25px;
-  }
+h1 {
+  font-size: 200%;
+  color: rgb(199, 211, 224);
+}
+
+nav a {
+  color: rgb(199, 211, 224);
+  padding: 7px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.headerImgContainer {
+  display: flex;
+  background-image: url("../img/ryan-moreno-w1_4YH5IhDg-unsplash_resize.jpg");
+  height: 150px;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 25px;
+  align-items: flex-end;
+  padding-bottom: 25px;
+}
 
 .headerImg {
   display: flex;
   justify-content: flex-start;
   height: 130px;
   border: 2px solid rgb(199, 211, 224);
-  margin-left:10px;
+  margin-left: 10px;
 }
- .headerImgText {
-  align-items:baseline;
+.headerImgText {
+  align-items: baseline;
   color: rgb(40, 43, 46);
   font-size: 1.5rem;
   background-color: lightgrey;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
- }
-
- /* creates main children into column format */
-main {
-display: flex;
-flex-direction: column;
-
 }
 
-.main-project{
-  width: 50%;
+/* creates main children into column format */
+main {
+  display: flex;
+  flex-direction: column;
+}
 
+.main-project {
+  width: 50%;
 }
 
 .small-project {
-width: 25%;
-
+  width: 25%;
 }
 /* About me row container */
+.aboutSectionContainer {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 30px;
+}
+
+/* h2 for 1st <hr> element on each row of main container*/
+h2 {
+  /* justify-self: flex-end; */
+  text-align: right;
+  font-size: 150%;
+  padding: 10px;
+  right: 70%;
+  width: 25%;
+  height: 100%;
+  font-weight: bold;
+  border-right: black solid 3px;
+}
+
+/* Presentation of about me content <p> elements */
+#about-content {
+  padding: 10px;
+  left: 30%;
+  width: 70%;
+  flex-direction: column;
+}
+
+/* Portfolio section contatiner  */
+.portfolioSectionContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 300px;
+  align-items: flex-start;
+  padding: 20px 30px;
+}
+
+/* Portfolio content container  */
+#portfolio-content {
+  padding: 10px;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 400px;
+  align-items: flex-start;
+}
+
+/* Portfolio items--ability to add multiple projects from here */
+
+h3 {
+  align-items: baseline;
+  font-weight: bold;
+}
+
+.portfolio-content {
+  display: flex;
+}
+
+.first-card:hover {
+  opacity: 100%;
+}
+
+.small-card-present:hover {
+  opacity: 100%;
+}
+
+/*Portfolio item text  */
+.card {
+  max-width: 32rem;
+  mb-3
+
+}
+
+/* Contact section container */
+.contactSectionContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 100px;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Contact content container */
+.contact-content {
+  flex-direction: row;
+  padding: 10px;
+  left: 30%;
+  /* justify-content: space-around; */
+  font-size: 1;
+  color: rgb(40, 43, 46);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-content a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(40, 43, 46);
+}
+
+.contact-content:hover {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: 3px solid rgb(40, 43, 46);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/* Resume section container */
+.resumeSectionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Resume content item */
+.resume-content {
+  padding: 10px;
+  left: 20%;
+  justify-content: space-around;
+  font-size: 1;
+  font-weight: bold;
+  color: rgb(40, 43, 46);
+}
+
+.resume-content a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(40, 43, 46);
+}
+
+.resume-content a:hover {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: 3px solid rgb(40, 43, 46);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
   .aboutSectionContainer {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     padding: 20px 30px;
   }
- 
-  /* h2 for 1st <hr> element on each row of main container*/
+
   h2 {
-    /* justify-self: flex-end; */
+    justify-self: flex-end;
     text-align: right;
     font-size: 150%;
     padding: 10px;
-    right: 70%;
-    width: 25%;
+    right: 80%;
+    width: 10%;
     height: 100%;
-    font-weight: bold;
-    border-right: black solid 3px;
-    }
+    border: 0px solid white;
+  }
 
-/* Presentation of about me content <p> elements */
-    #about-content{
-      padding: 10px;
-      left: 30%;
-      /* width: 70%; */
-      flex-direction: column;
-    }
-
-
-/* Portfolio section contatiner  */
   .portfolioSectionContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1 0 300px;
     align-items: flex-start;
     padding: 20px 30px;
   }
 
-/* Portfolio content container  */
-    #portfolio-content{
-      padding: 10px;
-      left: 30%;
-      display: flex;
-      flex-direction: column;
-      flex: 1 0 400px;
-      align-items: flex-start;
-  }
-  
-/* Portfolio items--ability to add multiple projects from here */
-  .first-card {
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    opacity: 65%;
-    border-radius: 5px;
-    padding 15px;
-    justify-content: space-between;
-    margin: 5px 5px 5px 5px;
-    width: 40%;
-  }
-
-  h3 {
-    align-items: baseline;
-    font-weight: bold;
-    
-    
-    }
-
-  .small-card-align {
-    text-align: center;
-    opacity: 65%;
-    margin: 0px 10px 10px 10px;
-    width: 40%;
-    flex-direction: row;}
-
-  .small-card-present {
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    opacity: 65%;
-    border-radius: 5px;
-    padding 15px;
-    margin: 1px 10px 10px 10px;
-    width: 40%;
-    flex-direction: row;
-  }
-
-  .portfolio-content {
-    display: flex;
-  }
-
-  .first-card:hover {
-  opacity: 100%;
-  }
-
-  .small-card-present:hover {
-    opacity: 100%;
-    }
-
-/*Portfolio item text  */
-  .card header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-  }
-
-/* Contact section container */
   .contactSectionContainer {
     display: flex;
-    flex-direction: row;
-    flex: 1 0 100px;
-    align-items: flex-start;
-    padding: 20px;
+    flex-direction: column;
   }
-
-/* Contact content container */
-    .contact-content{
-      flex-direction: row;
-      padding: 10px;
-      left: 30%;
-      /* justify-content: space-around; */
-      font-size: 1.0;
-      color: rgb(40, 43, 46);
-      font-weight: bold;
-      text-decoration: none;
-      
-    }  
-
-   .contact-content a{
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(40, 43, 46);
-   }
-
-    .contact-content:hover{
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      border-bottom: 3px solid rgb(40, 43, 46);
-      font-weight: 900;
-      text-decoration: none;
-
-    }
-
-/* Resume section container */
   .resumeSectionContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     padding: 20px;
   }
-
-/* Resume content item */
-    .resume-content{
-      padding: 10px;
-      left: 20%;
-      justify-content: space-around;
-      font-size: 1.0;
-      font-weight: bold;
-      color: rgb(40, 43, 46);
-    }
-
-    .resume-content a{
-      text-decoration: none;
-      font-weight: bold;
-      color: rgb(40, 43, 46);
-
-
-    }
-    
-  .resume-content a:hover {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-bottom: 3px solid rgb(40, 43, 46);
-    font-weight: 900;
-    text-decoration: none;
-
-  }
-
-
-
-
-@media screen and (max-width: 768px) {
-    header {
-      flex-direction: column;
-    }
-
-    .aboutSectionContainer {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 20px 30px;
-    }
-
-    h2 {
-      justify-self: flex-end;
-      text-align: right;
-      font-size: 150%;
-      padding: 10px;
-      right: 80%;
-      width: 10%;
-      height: 100%;
-      border: 0px solid white;
-      }
-
-      .portfolioSectionContainer {
-        display: flex;
-        flex-direction: column;
-        flex: 1 0 300px;
-        align-items: flex-start;
-        padding: 20px 30px;
-      }
-
-      .contactSectionContainer {
-        display: flex;
-        flex-direction: column;
-
-      }
-      .resumeSectionContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px;
-
-    
-      }
-   
-  }
+}
