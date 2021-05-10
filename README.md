@@ -46,4 +46,5 @@ Ryan Moreno
 
 ### External Links to Repository / Site:
 Repository: https://github.com/jongregory75/Portfolio
+
 Index.html:  https://jongregory75.github.io/Portfolio/
