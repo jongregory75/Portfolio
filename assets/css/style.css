@@ -72,6 +72,15 @@ flex-direction: column;
 
 }
 
+.main-project{
+  width: 50%;
+
+}
+
+.small-project {
+width: 25%;
+
+}
 /* About me row container */
   .aboutSectionContainer {
     display: flex;
